@@ -207,7 +207,7 @@ class App extends React.Component {
             <Row className="align-self-end w-100">
               <Col md={10}><p className="text-white-50">{release_date}<br></br>{moment(release_date, "YYYYMMDD").fromNow()}</p></Col>
               <Col md={2}><Badge color="warning">{vote_average}</Badge></Col>
-              <Col md={12}>{genre_ids.map(id => <Badge>{this.state.genres.find(item => item.id == id).name}</Badge>)}</Col>
+              <Col md={12}>{genre_ids.map(id => <Badge>{this.state.genres.find(item => item.id === id).name}</Badge>)}</Col>
             </Row>
           </div>
           <Row style={{ margin: 10 }}>
