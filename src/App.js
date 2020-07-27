@@ -286,12 +286,12 @@ class App extends React.Component {
           />
         </Modal>
         <Navbar style={{ backgroundColor: 'rgba(52, 52, 52, 0.7)' }} dark expand="md" sticky="top">
-          <NavbarBrand className="align-center" href="/"> <img src="https://pbs.twimg.com/profile_images/979793365402378240/VcPN7WHD_400x400.jpg" width="80" height="50" />Movie Free</NavbarBrand>
+          <NavbarBrand className="align-center" href="/"> <img src="https://pbs.twimg.com/profile_images/979793365402378240/VcPN7WHD_400x400.jpg" width="80" height="50" alt='brand' />Movie Free</NavbarBrand>
           <Nav navbar>
             <NavItem>
               <NavLink href="#" onClick={this.getNowPlayingMovies} className="text-warning">Now Playing</NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem> 
               <NavLink href="#" onClick={this.getTopRatedMovies} className="text-warning">Top Rated</NavLink>
             </NavItem>
             <NavItem>
