@@ -279,7 +279,7 @@ class App extends React.Component {
             }
           }}
         >
-          <Button onClick={this.handleCloseModal}>close</Button>
+          <Button color="warning" onClick={this.handleCloseModal}>close</Button>
           <YouTube video={this.state.videoKey}
             height="90%"
             width="90%"
