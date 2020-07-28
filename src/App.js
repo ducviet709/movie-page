@@ -291,7 +291,7 @@ class App extends React.Component {
             <NavItem>
               <NavLink href="#" onClick={this.getNowPlayingMovies} className="text-warning">Now Playing</NavLink>
             </NavItem>
-            <NavItem> 
+            <NavItem>
               <NavLink href="#" onClick={this.getTopRatedMovies} className="text-warning">Top Rated</NavLink>
             </NavItem>
             <NavItem>
@@ -309,7 +309,7 @@ class App extends React.Component {
             </NavItem>
           </Nav>
         </Navbar>
-        <div style={{ color: "white", width: "250px", margin: "auto" }}>
+        <div style={{ color: "white", width: "300px", margin: "auto" }}>
           <p>Rating</p>
           <InputRange
             // formatLabel={value => `${value}✨`}
@@ -324,7 +324,7 @@ class App extends React.Component {
           />
         </div>
         <br></br>
-        <div style={{ color: "white", width: "250px", margin: "auto" }}>
+        <div style={{ color: "white", width: "300px", margin: "auto" }}>
           <p>Year</p>
           <InputRange
             step={1}
@@ -365,9 +365,6 @@ class App extends React.Component {
             totalItemsCount={450}
             onChange={this.handlePageChange}
           />
-
-
-
         </div>
       </div>
     )
